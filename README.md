@@ -9,10 +9,11 @@ Create directory and package.json
 
 ### `npx -p @storybook/cli sb init --type react`
 
-Installation from this repo:
+## Installation from this repo:
 
 ### `git clone https://github.com/ivanchenoweth/storybook-getting-started.git`
-### `cd storybook-getting-started.git
+
+### `cd storybook-getting-started.git`
 
 ## Available Scripts
 
