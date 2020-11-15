@@ -1,0 +1,14 @@
+.button {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    border: 0;
+    border-radius: 3em;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+  }
+  .primary {color: rgb(119, 0, 255); }
+  .secondary {color: rgb(255, 255, 255);}
+  .success{color: rgb(0, 255, 55);}
+  .danger { color: rgb(255, 0, 0); }
+  
