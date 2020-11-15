@@ -1,14 +1,24 @@
-# Getting Started with Create React App
+# Getting started with Storybook for ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Install storybook
+## Installation from scratch:
+
+Create directory and package.json
+
+### `mkdir storybook-starter && cd storybook-start && npm init -y`
 
 ### `npx -p @storybook/cli sb init --type react`
+
+Installation from this repo:
+
+### `git clone https://github.com/ivanchenoweth/storybook-getting-started.git`
+### `cd storybook-getting-started.git
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn storybook`
 
 ### `yarn start`
 
