@@ -14,7 +14,7 @@ function App() {
           href="https://github.com/ivanchenoweth/storybook-getting-started"
           target="_blank"
           rel="noopener noreferrer"
-        > https://github.com/ivanchenoweth/storybook-getting-started
+        >Storybook-getting-started (github.com)
         </a>
 
         <a
@@ -22,7 +22,7 @@ function App() {
           href="https://www.chromatic.com/builds?appId=5fb1f3d6552e8e00212b1987"
           target="_blank"
           rel="noopener noreferrer"
-        > Review components
+        > Review components (chromatic.com)
         </a>
 
         
