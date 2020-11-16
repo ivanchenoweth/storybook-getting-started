@@ -1,6 +1,5 @@
 # Getting started with Storybook for ReactJS
 
-
 ## Installation from scratch:
 
 Create directory and package.json
@@ -31,6 +30,11 @@ You will also see any lint errors in the console.
 
 ### `yarn test`
 
+--watchAll flag to our test command, don't worry it's intentional, this small change will ensure that all tests run and everything is ok with our application, so probably you might want to consider and add the flag to your test script in your package.json to ensure your entire test suite runs.
+### yarn test --watchAll
+
+[Unit testing with Storybook](https://storybook.js.org/docs/react/workflows/unit-testing)
+
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
@@ -43,6 +47,10 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+Publish your Storybook again
+Run the test publish command again to upload your UI tweaks and have Chromatic catch your changes.
+### npx chromatic --project-token=ss8ns8nl2
 
 ### `yarn eject`
 

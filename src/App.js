@@ -7,16 +7,25 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        Storybook getting Started V.1.1 15-Nov-2020
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/ivanchenoweth/storybook-getting-started"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          https://www.youtube.com/watch?v=jjH1cKGkt3o&ab_channel=Codevolution
+        >Storybook-getting-started (github.com)
         </a>
+
+        <a
+          className="App-link"
+          href="https://www.chromatic.com/builds?appId=5fb1f3d6552e8e00212b1987"
+          target="_blank"
+          rel="noopener noreferrer"
+        > Review components (chromatic.com)
+        </a>
+
+        
       </header>
     </div>
   );
