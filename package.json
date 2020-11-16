@@ -18,7 +18,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public --no-dll",
-    "build-storybook": "build-storybook -s public --no-dll"
+    "build-storybook": "build-storybook -s public --no-dll",
+    "chromatic": "npx chromatic --project-token ss8ns8nl2"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +47,7 @@
     "@storybook/node-logger": "^6.0.28",
     "@storybook/preset-create-react-app": "^3.1.5",
     "@storybook/react": "^6.0.28",
+    "chromatic": "^5.3.0",
     "react-is": "^17.0.1"
   }
 }
