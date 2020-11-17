@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -7,25 +8,16 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-        Storybook getting Started V.1.1 15-Nov-2020
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
-          href="https://github.com/ivanchenoweth/storybook-getting-started"
+          href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >Storybook-getting-started (github.com)
+        >
+          Learn React
         </a>
-
-        <a
-          className="App-link"
-          href="https://www.chromatic.com/builds?appId=5fb1f3d6552e8e00212b1987"
-          target="_blank"
-          rel="noopener noreferrer"
-        > Review components (chromatic.com)
-        </a>
-
-        
       </header>
     </div>
   );
